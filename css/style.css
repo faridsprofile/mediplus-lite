@@ -625,8 +625,7 @@ float: left;
     justify-content: space-between;
 }
 .blog-cards .single-blog{
-    /* width: 32%; */
-    padding: 10px;
+
     background: #fff;
     margin: 0 10px;
     border: 1px solid lightgrey;
@@ -638,7 +637,9 @@ float: left;
 .blog-cards .single-blog .blog-image img{
     width: 100%;
 }
-.blog-cards .single-blog .blog-content{}
+.blog-cards .single-blog .blog-content{
+    padding: 10px;
+}
 .blog-cards .single-blog .blog-content .date{}
 .blog-cards .single-blog .blog-content h4{}
 .blog-cards .single-blog .blog-content p{}
