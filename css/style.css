@@ -597,6 +597,53 @@ float: left;
 /* price-section end */
 
 
+/*blog-section css start*/
+.blog-section{
+    padding: 100px 0;
+}
+.blog-section .blog-inner{}
+.blog-section .blog-inner .blog-header{
+    text-align: center;
+}
+.blog-section .blog-inner .blog-header h2{
+    margin-bottom: 25px;
+    font-size: 32px;
+    color: #2C2D3F;
+    font-weight: 600;
+    padding: 0 265px;
+}
+.blog-section .blog-inner .blog-header img{
+    margin-bottom: 25px;
+}
+.blog-section .blog-inner .blog-header p{
+    margin-bottom: 35px;
+    font-size: 15px;
+    color: #888;
+}
+.blog-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-cards .single-blog{
+    /* width: 32%; */
+    padding: 10px;
+    background: #fff;
+    margin: 0 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.blog-cards .single-blog .blog-image{
+    /* width: 100%; */
+}
+.blog-cards .single-blog .blog-image img{
+    width: 100%;
+}
+.blog-cards .single-blog .blog-content{}
+.blog-cards .single-blog .blog-content .date{}
+.blog-cards .single-blog .blog-content h4{}
+.blog-cards .single-blog .blog-content p{}
+/*blog-section css end*/
+
 /*button css start*/
 .black-button{
     padding: 13px 25px;
